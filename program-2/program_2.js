@@ -1,3 +1,8 @@
+/**
+ * Finds the maximum profit that can be made from buying and selling a stock.
+ * @param {number[]} prices - An array of stock prices.
+ * @returns {number} - The maximum profit that can be made.
+ */
 function findMaxProfit(prices) {
     let minPrice = Infinity; let maxProfit = -1;
 
@@ -6,6 +11,5 @@ function findMaxProfit(prices) {
     return maxProfit;
 }
 
-// Example usage: 
 let prices = [100, 180, 260, 310, 40, 535, 695];
 console.log(findMaxProfit(prices));
